@@ -1,5 +1,5 @@
 ---
-title: "Blog-Post-One"
+title: "Blog Post One"
 date: 2021-03-21
 ---
 
