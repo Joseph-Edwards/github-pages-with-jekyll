@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   it is merely a place for me to test styles to see what I
   like and what works best.
 
-#baseurl: github-pages-with-jekyl
+baseurl: "github-pages-with-jekyl"
 
 # social links
 twitter_username: JoeDEdwards # DO NOT include the @ character, or else the build will fail!
