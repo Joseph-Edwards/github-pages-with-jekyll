@@ -12,3 +12,11 @@ It can also keep track of things I need to do:
 - [ ] Go to the shops
 
 I can't wait to do some more cool things.
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
