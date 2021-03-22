@@ -12,3 +12,5 @@ twitter_username: JoeDEdwards # DO NOT include the @ character, or else the buil
 github_username:  Joseph-Edwards # DO NOT include the @ character, or else the build will fail!
 
 show_excerpts: true # set to false to remove excerpts on the homepage
+
+url: https://joseph-edwards.github.io/github-pages-with-jekyll/
