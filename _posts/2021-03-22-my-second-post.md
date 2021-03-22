@@ -1,6 +1,11 @@
-# Nothing exciting here
+---
+title: "Second Blog Post"
+date: 2021-03-21
+---
 
-## Seriously, nothing exciting
+## Nothing exciting here
+
+### Seriously, nothing exciting
 
 I'm just trying to mess around with Markdown. Very exciting times.
 

@@ -16,9 +16,9 @@ I can't wait to do some more cool things.
 
 ## Posts
 
-<li>
+<ul  style = "margin-left:0;list-style:none">
     {% for post in site.posts %}
-        <abbr>{{ post.publish_date }}</abbr>
+        <span>{{ post.date }}</span>
         <a href="{{ post.url | absolute_url}}">{{ post.title }}</a>
     {% endfor %}
-</li>
+</ul>
