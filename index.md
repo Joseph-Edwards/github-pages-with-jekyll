@@ -6,17 +6,10 @@ I am demonstrating that I know how to make text **bold**, _italic_ and ~~in stri
 > You can do loads of cool stuff with it.
 
 It can also keep track of things I need to do:
+
 - [x] Wake up
 - [x] Get breakfast
 - [x] Have a shower
 - [ ] Go to the shops
 
 I can't wait to do some more cool things.
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>

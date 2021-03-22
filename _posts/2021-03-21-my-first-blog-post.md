@@ -10,3 +10,11 @@ I am slowly starting to get the hang of GitHub, which is great news. Soon I plan
 > Sometimes you never know the value of a moment, until it becomes a memory
 
 How sweet is that?
+
+<ul>
+    {% for post in site.posts %}
+        <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
