@@ -20,7 +20,7 @@ I can't wait to do some more cool things.
     {% for post in site.posts %}
         <p>
             {{ post.publish_date }}
-            <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ site.url | append: {{ post.url }} }}">{{ post.title }}</a>
         </p>
     {% endfor %}
 </ul>
