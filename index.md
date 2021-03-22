@@ -19,8 +19,8 @@ I can't wait to do some more cool things.
 <ul>
     {% for post in site.posts %}
         <li>
-            {{ post.publish_date }}
-            <a href="{% post_url {{ post.title }}  %}">{{ post.title }}</a>
+            <h3>{{ post.publish_date }}</h3>
+            <a href={{ post.url }}>{{ post.title }}</a>
         </li>
     {% endfor %}
 </ul>
