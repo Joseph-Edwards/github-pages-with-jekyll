@@ -19,7 +19,7 @@ I can't wait to do some more cool things.
 <ul>
     {% for post in site.posts %}
         <p>
-            {{ post.meta }}
+            {{ post.publish_date}}
             <a href="{{ post.url }}">{{ post.title }}</a>
         </p>
     {% endfor %}
