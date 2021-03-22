@@ -13,3 +13,14 @@ It can also keep track of things I need to do:
 - [ ] Go to the shops
 
 I can't wait to do some more cool things.
+
+## Posts
+
+<ul>
+    {% for post in site.posts %}
+        <p>
+            {{ post.meta }}
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </p>
+    {% endfor %}
+</ul>
