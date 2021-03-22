@@ -18,7 +18,11 @@ I can't wait to do some more cool things.
 
 <ul  style = "margin-left:0;list-style:none">
     {% for post in site.posts %}
-        <span>{{ post.date }}</span>
-        <a href="{{ post.url | absolute_url}}">{{ post.title }}</a>
+        <li>
+            <span style = "font-size:14px;color:#828282">{{ post.date }}</span>
+            <h3>
+                <a href="{{ post.url | absolute_url}}">{{ post.title }}</a>
+            </h3>
+        </li>
     {% endfor %}
 </ul>
