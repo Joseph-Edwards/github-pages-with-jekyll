@@ -19,7 +19,7 @@ I can't wait to do some more cool things.
 <ul  style = "margin-left:0;list-style:none">
     {% for post in site.posts %}
         <li>
-            <span style = "font-size:14px;color:#828282">{{ post.date }}</span>
+            <span style = "font-size:14px;color:#828282">{{ post.date | date_to_long_string: "ordinal" }}</span>
             <h3>
                 <a href="{{ post.url | absolute_url}}">{{ post.title }}</a>
             </h3>
